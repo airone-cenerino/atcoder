@@ -1,6 +1,8 @@
 N = int(input())  # 数値入力
 H = list(map(int, input().split()))  # リスト入力（数値）  map関数はリストの各要素に対して関数を適用してくれる
 
+# test
+
 ans = 0
 while sum(H) != 0:
     i = 0
